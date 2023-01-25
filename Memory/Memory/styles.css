@@ -1,0 +1,12 @@
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    width:400px;
+    height:300px;
+}
+
+h3{
+    font-family:cursive;
+    border-radius: 5px;
+    border-color:black;
+}

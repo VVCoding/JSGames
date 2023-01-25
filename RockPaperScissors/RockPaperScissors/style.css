@@ -1,0 +1,62 @@
+body{
+    background-color: #ccc;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.selection{
+    background:none;
+    border: none;
+    outline: none;
+    cursor: crosshair;
+    font-size: 4rem;
+    transition: 100ms
+
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+.results{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-left: .1rem;
+    font-size: 1rem;
+    font-family: Georgia;
+}
+
+.result-score{
+    margin-left: .1rem;
+    font-size: 3rem;
+    font-family: Georgia;
+    color: #999;;
+
+}
+
+.result-selection{
+    opacity: 0.5;
+}
+
+.result-selection.winner{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.h1{
+    position: absolute;
+    top: -200px;
+    font-size: 600px;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+}
